@@ -1,9 +1,12 @@
-// static void Main()
-// {
-    Console.WriteLine(Square(5));
-// }
-
-static int Square (int n)
+class program
 {
-    return n * n;
+    static void Main()
+    { 
+        Console.WriteLine(Square(5));
+    }
+
+    static int Square (int n)
+    {
+        return n * n;
+    }
 }
